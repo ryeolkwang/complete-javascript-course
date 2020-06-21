@@ -1,16 +1,22 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
 
+function calculateAge(year) {
+    console.log(2020 - year);
+}
+
+calculateAge(1994);
+
+retirement (1992);
+
+const retirement = function(year) {
+    console.log(65 - (2020 - year));
+}
+
+retirement(1990);
 
 
-
-
-
-
-
-
-
-
+//function hoisting only works for function declarations and not function expressions
 
 
 
